@@ -30,3 +30,42 @@ body {
 a {
     color: inherit;
 }
+
+main {
+    padding-top: 100px;
+    margin: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.text-container {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.author-container {
+
+}
+
+.author {
+    font-size: 4rem;
+    margin: 0;
+    line-height: .8;
+    padding-bottom: 30px;
+}
+
+.role {
+    font-size: 1.5rem;
+
+}
+
+.image-container {
+
+}
+
+.hero-image {
+
+}
