@@ -69,3 +69,26 @@ main {
 .hero-image {
 
 }
+
+.footer-nav {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em
+}
+
+.credits {
+    display: flex;
+    flex-direction: column;
+    opacity: .84;
+    transition: opacity .2s ease-in-out;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-footer {
+    padding-bottom: 10px;
+}
